@@ -1,0 +1,221 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.625em;
+}
+
+.header {
+  background-color: #222;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+.section-gap {
+  padding: 40px 0;
+  margin-bottom: 40px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+} 
+
+.container {
+  max-width: 1320px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container-login {
+  max-width: 500px;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 100%;
+}
+
+.card-auth {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.card-auth h2 {
+  color: black;
+  font-size: 28px;
+  font-weight: 800;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.card {
+  margin-bottom: 40px;
+  padding: 10px 17px;
+  background: #fff;
+  border: 1px solid black;
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.card p {
+  margin: 20px 5px 20px 5px;
+  font-size: 22px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.form-login label {
+  margin-top: 10px;
+  margin-bottom: 2px;
+  display: block;
+ }
+
+.form-login hr {
+  border: 0;
+  border-bottom: 1px solid black;
+}
+
+.form-login button {
+  background-color: #333;
+  line-height: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+  border: none;
+  color: #fff;
+  display: inline-block;
+  font-weight: 500;
+  position: relative;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  width: 160px;
+}
+
+.form-login input[type=text], input[type=password], select {
+  background: #fff;
+  width: 100%;
+  color: black;
+  padding: 10px 20px;
+  margin: 0;
+  display: inline-block;
+  border: 1px solid black;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: inherit;
+  outline: none;
+}
+
+.blockquote {
+  margin: 0;
+  padding: 20px;
+  background: #f2f2f2;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.column {
+  float: left;
+}
+
+.column-content {
+  padding-right: 7px;
+  padding-left: 7px;
+}
+
+.cl-100 {
+  width: 100%;
+}
+
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+form.formulario input[type=text] {
+  padding: 10px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+form.formulario button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: black;
+  color: white;
+  border: 1px solid black;
+  border-left: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+form.formulario::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#tabela {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#tabela td, #tabela th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#tabela tr:nth-child(even){background-color: #f2f2f2;}
+
+#tabela tr:hover {background-color: #ddd;}
+
+#tabela th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: black;
+  color: white;
+}

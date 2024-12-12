@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <title>Sistema Acadêmico</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="../css/styles.css" rel="stylesheet">
+  </head>
+<body>
+
+<!-- Header -->
+<header class="header">
+  <div class="container">
+    <div class="row">
+      <div class="column cl-100 text-left">
+        <h1>Sistema Acadêmico</h1>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Main -->
+<section class="section-gap">
+  <div class="container">
+    <div class="row">
+      <div class="column cl-100">
+        <h2 class="text-center">Pesquisa de Cursos</h2>
+        <br>
+        <form class="formulario" action="" method="GET">
+          <label for="fname">Nome do Curso:</label><br>
+          <input type="text" placeholder="Exemplo: Análise e Desenvolvimento de Sistemas" name="search">
+          <button type="submit">Pesquisar</button>
+        </form>
+      </div>
+    </div>
+    <div class="row">
+      <br>
+      <p style="margin: 0;"><strong>Resultado da pesquisa por: </strong>palavra</p>
+      <br>
+    </div>
+    <div class="row">
+      <div class="column cl-100">
+        <table id="tabela">
+          <tr>
+            <th>Nome</th>
+            <th>Nível</th>
+            <th>Duração</th>
+            <th>Período</th>
+          </tr>
+          <tr>
+            <td>Técnico em Informática</td>
+            <td>Técnico</td>
+            <td>2 anos</td>
+            <td>Vespertino</td>
+          </tr>
+          <tr>
+            <td>Tecnologia em Análise e Desenvolvimento de Sistemas</td>
+            <td>Graduação</td>
+            <td>3 anos</td>
+            <td>Noturno</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="column cl-100 text-center">
+        <p>Segurança da Informação. Exemplo de Aula: Aplicação Web Vulnerável</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
